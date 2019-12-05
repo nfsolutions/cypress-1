@@ -41,9 +41,14 @@ describe('Info Page', function() {
         cy.get('#signature-person').should('not.to.be.checked')
         cy.get('#signature-deliveryadvice-label').should('not.to.be.checked')
         cy.get('#climate-option-label').should('not.to.be.checked')
-
+        cy.get('#climate-option-label').check()
+        cy.get('#climate-option-label').should('be.checked')
+        cy.get('#next-step').click()
     })
 })
+
+// chrome extension
+// https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe
 
 /* snippets */
 

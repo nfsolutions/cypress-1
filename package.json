@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "download-extension": "ced gleekbfjekiniecknbkamfmkohkpodhe extensions/ignore-x-frame-headers"
+    "download-extension": "ced gleekbfjekiniecknbkamfmkohkpodhe extensions/ignore-x-frame-headers",
+    "cy:run": "cypress run"
   },
   "dependencies": {
     "chrome-ext-downloader": "^1.0.4"
   }
 }
+
+
