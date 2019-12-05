@@ -5,7 +5,8 @@
   },
   "dependencies": {
     "chrome-ext-downloader": "^1.0.4"
+  },
+  "devDependencies": {
+    "cypress": "^3.7.0"
   }
 }
-
-
