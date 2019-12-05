@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "download-extension": "ced gleekbfjekiniecknbkamfmkohkpodhe extensions/ignore-x-frame-headers"
+  },
+  "dependencies": {
+    "chrome-ext-downloader": "^1.0.4"
+  }
+}
